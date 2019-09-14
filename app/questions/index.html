@@ -1,0 +1,13 @@
+﻿<h1>Questions</h1>
+<div class="form-container">
+    <div class="form-group">  
+        <h3>My question:</h3>
+        <input type="text" name="questionInput" size="40" ng-model="vm.question">
+        <button class="btn btn-primary" ng-click="vm.saveQuestion()">Save</button>
+        <button class="btn btn-danger" ng-click="vm.cancelQuestion()">Cancel</button>
+    </div>
+
+    <!-- <div ng-repeat="currentQuestion in vm.questionList">
+        {{currentQuestion.question}}
+    </div> -->
+</div>
